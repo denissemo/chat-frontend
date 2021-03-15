@@ -1,0 +1,24 @@
+@import "./fonts";
+@import "./colors";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+}
+
+.content-wrapper {
+    background: $black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+//.container {
+//    width: 90%;
+//    max-width: 1106px;
+//    overflow: hidden;
+//    margin: auto auto 160px auto;
+//}
